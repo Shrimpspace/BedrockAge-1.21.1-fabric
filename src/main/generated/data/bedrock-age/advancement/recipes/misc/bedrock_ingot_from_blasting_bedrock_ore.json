@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bedrock_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrock-age:bedrock_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bedrock-age:bedrock_ingot_from_blasting_bedrock_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bedrock_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bedrock-age:bedrock_ingot_from_blasting_bedrock_ore"
+    ]
+  }
+}

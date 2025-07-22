@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "bedrock-age",
+	"version": "${version}",
+	"name": "Bedrock Age",
+	"description": "Added many practical items for 'Bedrock' in Minecraft.",
+	"authors": [
+		"小虾虾Shrimp"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bedrock-age/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"online.shrimpspace.mod.BedrockAge"
+		],
+		"fabric-datagen": [
+			"online.shrimpspace.mod.BedrockAgeDataGenerator"
+		],
+		"client": [
+			"online.shrimpspace.mod.BedrockAgeClient"
+		],
+		"rei_client": [
+			"online.shrimpspace.mod.compat.ModREIClientPlugins"
+		]
+	},
+	"mixins": [
+		"bedrock-age.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

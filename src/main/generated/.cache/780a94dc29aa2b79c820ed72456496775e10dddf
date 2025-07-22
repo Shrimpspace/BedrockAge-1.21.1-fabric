@@ -1,0 +1,3 @@
+// 1.21.1	2025-07-22T20:50:50.4382275	Bedrock Age/Tags for minecraft:block
+8280f5524eeb914029219e18a197b254a26a70df data\minecraft\tags\block\mineable\pickaxe.json
+bc4f1ee224277f3c49734cc354cfa4c9a7bf5667 data\minecraft\tags\block\needs_diamond_tool.json

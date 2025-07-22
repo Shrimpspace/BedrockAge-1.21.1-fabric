@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bedrock-age:item/bedrock_ingot"
+  }
+}

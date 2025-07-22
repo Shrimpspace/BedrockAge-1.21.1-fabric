@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 10.0,
+  "group": "bedrock_ingot_from_bedrock_ore",
+  "ingredient": {
+    "item": "bedrock-age:bedrock_ore"
+  },
+  "result": {
+    "id": "bedrock-age:bedrock_ingot"
+  }
+}

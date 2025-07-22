@@ -1,0 +1,35 @@
+{
+  "parent": "bedrock-age:get_bedrock_nugget",
+  "criteria": {
+    "get_bedrock_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrock-age:bedrock_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.infinite_dedication.title"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "bedrock-age:bedrock_hoe"
+    },
+    "title": {
+      "translate": "advancements.infinite_dedication.description"
+    }
+  },
+  "requirements": [
+    [
+      "get_bedrock_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

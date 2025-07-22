@@ -1,0 +1,74 @@
+{
+  "parent": "bedrock-age:get_bedrock_nugget",
+  "criteria": {
+    "wear_bedrock_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrock-age:bedrock_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wear_bedrock_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrock-age:bedrock_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wear_bedrock_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrock-age:bedrock_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wear_bedrock_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bedrock-age:bedrock_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.cover_me_with_bedrock.title"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "bedrock-age:bedrock_chestplate"
+    },
+    "title": {
+      "translate": "advancements.cover_me_with_bedrock.description"
+    }
+  },
+  "requirements": [
+    [
+      "wear_bedrock_helmet"
+    ],
+    [
+      "wear_bedrock_chestplate"
+    ],
+    [
+      "wear_bedrock_leggings"
+    ],
+    [
+      "wear_bedrock_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
